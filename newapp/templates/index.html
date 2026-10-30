@@ -1,0 +1,309 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ayisha Hanna K | Python Developer</title>
+  <meta name="description" content="Python & Django developer building reliable web applications.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <a href="#home" class="brand"><span class="brand-mark">A</span><span class="brand-name">AYISHA HANNA</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Ayisha<br>Hanna K<span class="dot">.</span></h1>
+        <p class="role">Python <span class="amp">&amp;</span> Django Developer</p>
+        <p class="lead">Building reliable web applications with Python, Django &amp; modern web technologies.</p>
+        <p class="sub">Python Developer (Fresher) focused on backend web applications, REST APIs and practical software that solves real problems.</p>
+        <div class="btn-row">
+          <a href="#projects" class="btn btn-primary">View my projects <span>&#8600;</span></a>
+          <a href="https://github.com/ayishahannak" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/ayisha-hanna-292b6b356/" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <p class="tag-line"><i></i>OPEN TO INTERNSHIPS &amp; ENTRY-LEVEL ROLES</p>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <span class="photo-id">AH / 01</span>
+          <span class="photo-initials">AH</span>
+          <img src="{% static 'images/portfolioimage.jpeg' %}" alt="Ayisha Hanna K" onerror="this.style.display='none'">
+          <div class="photo-badge">&lt;/&gt;<small>BUILD<br>WITH CARE</small></div>
+        </div>
+        <div class="photo-caption"><span><i class="live"></i>PYTHON DEVELOPER</span><span>KERALA, INDIA</span></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <p class="eyebrow"><b>01</b> A LITTLE ABOUT ME</p>
+      <h2 class="reveal">Curious by nature.<br><em>Builder by choice.</em></h2>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="big">I'm a motivated Python developer who enjoys turning ideas into useful, dependable web applications.</p>
+          <p>Through hands-on projects, I've worked across Django and Flask,React, REST APIs, relational databases, authentication, CRUD workflows and role-based applications. I care about understanding how things work and building software that feels clear from the inside out.</p>
+          <p>Currently learning, solving problems and looking for a chance to contribute as a Python, Django,React, Backend or Software Developer.</p>
+          <a href="#contact" class="link-arrow">Let's connect <span>&#8599;</span></a>
+        </div>
+        <div class="about-side reveal">
+          <div class="stats">
+            <div class="stat"><strong>05<sup>+</sup></strong><span>PROJECTS BUILT</span></div>
+            <div class="stat"><strong>40<sup>+</sup></strong><span>LEETCODE PROBLEMS</span></div>
+            <div class="stat"><strong class="sm">Python</strong><span>DEVELOPER</span></div>
+            <div class="stat"><strong class="sm">React</strong><span>DEVELOPER</span></div>
+            <div class="stat"><strong class="sm">Django / Flask</strong><span>BACKEND TOOLKIT</span></div>
+          </div>
+          <div class="note"><span>&#8599;</span>Completed a 7-month Python Full Stack Development course</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <p class="eyebrow"><b>02</b> THE TOOLKIT</p>
+      <h2 class="reveal">Skills I bring<br><em>to the table.</em></h2>
+      <p class="intro reveal">A growing, practical toolkit for building and shipping web applications.</p>
+      <div class="skill-grid">
+        <article class="skill reveal"><div class="skill-top"><span class="ico">{ }</span><small>01</small></div><h3>Programming</h3><div class="chips"><span>Python</span><span>C</span><span>SQL</span><span>JavaScript</span></div></article>
+        <article class="skill reveal"><div class="skill-top"><span class="ico">&#9776;</span><small>02</small></div><h3>Frameworks &amp; libraries</h3><div class="chips"><span>Django</span><span>Django REST Framework</span><span>Flask</span><span>SQLAlchemy</span></div></article>
+        <article class="skill reveal"><div class="skill-top"><span class="ico">&#9638;</span><small>03</small></div><h3>Frontend</h3><div class="chips"><span>React</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span></div></article>
+        <article class="skill reveal"><div class="skill-top"><span class="ico">&#9673;</span><small>04</small></div><h3>Databases</h3><div class="chips"><span>PostgreSQL</span><span>SQLite</span></div></article>
+        <article class="skill reveal"><div class="skill-top"><span class="ico">&#9881;</span><small>05</small></div><h3>Core concepts</h3><div class="chips"><span>OOP</span><span>CRUD</span><span>Authentication</span><span>Authorization</span><span>REST APIs</span><span>MVC</span><span>Sessions</span><span>File handling</span><span>Exceptions</span><span>Regular expressions</span></div></article>
+        <article class="skill reveal"><div class="skill-top"><span class="ico">&#10006;</span><small>06</small></div><h3>Tools</h3><div class="chips"><span>Git</span><span>GitHub</span><span>GitHub Copilot</span><span>VS Code</span><span>PyCharm</span><span>LeetCode</span></div></article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <p class="eyebrow"><b>03</b> SELECTED WORK</p>
+      <h2 class="reveal">Built to be<br><em>useful.</em></h2>
+      <p class="intro reveal">A few practical applications exploring backend systems, data and thoughtful workflows.</p>
+
+
+<div class="featured reveal">
+  <div class="mock">
+    <div class="mock-bar">
+      <i></i><i></i><i></i>
+      <span>MindCare / admin dashboard</span>
+    </div>
+
+    <div class="mock-body">
+      <div class="mock-side">
+        <b>M</b>
+        <i></i><i></i><i></i><i></i>
+      </div>
+
+      <div class="mock-main">
+        <small>OVERVIEW</small>
+        <p>Welcome back, Admin</p>
+
+        <div class="mock-stats">
+          <div><small>Users</small>120</div>
+          <div><small>Doctors</small>24</div>
+          <div><small>Appointments</small>86</div>
+        </div>
+
+        <div class="mock-bars">
+          <i style="--h:35%"></i>
+          <i style="--h:55%"></i>
+          <i style="--h:42%"></i>
+          <i style="--h:78%"></i>
+          <i style="--h:60%"></i>
+          <i style="--h:90%"></i>
+          <i style="--h:70%"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="feat-copy">
+    <p class="mono">FEATURED PROJECT <span>01 / 05</span></p>
+
+    <h3>MindCare – Mental Health Care Platform</h3>
+
+    <p>
+      A mental health platform that connects users with doctors and provides
+      tools to support emotional well-being through personalized mental
+      health services and resources.
+    </p>
+
+    <div class="chips">
+      <span>React.js</span>
+      <span>Redux Toolkit</span>
+      <span>JavaScript</span>
+      <span>Bootstrap</span>
+      <span>Formik</span>
+    </div>
+
+    <ul>
+      <li>Role-based Admin, Doctor &amp; User dashboards</li>
+      <li>Doctor discovery, appointment booking and scheduling</li>
+      <li>Doctor profile management and appointment tracking</li>
+      <li>Mood tracking, journaling and meditation resources</li>
+      <li>Admin management of users, doctors and appointments</li>
+    </ul>
+
+    <a href="https://github.com/ayishahannak/Mentall-Wellness"
+       class="link-arrow">
+      View Project <span>&#8599;</span>
+    </a>
+  </div>
+</div>
+
+
+
+      <div class="project-list">
+      <div class="feat-copy">
+  <p class="mono">DJANGO / GYM MANAGEMENT <span>02 / 05</span></p>
+  <h3>Gym Management System</h3>
+  <p>A gym management platform to manage members, memberships, trainers and daily gym operations.</p>
+  <div class="chips">
+    <span>Python</span>
+    <span>Django</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Bootstrap</span>
+  </div>
+  <ul>
+    <li>Member registration and profile management</li>
+    <li>Membership plans, payments and renewal tracking</li>
+    <li>Trainer management and workout scheduling</li>
+    <li>Admin dashboard for managing gym operations</li>
+  </ul>
+  <a href="https://github.com/ayishahannak/django_GymManagment" class="link-arrow">Explore repository <span>&#8599;</span></a>
+</div>
+        <article class="project reveal">
+          <div class="p-head"><small>03</small><span class="mono">DJANGO / E-COMMERCE</span></div>
+          <h3>E-Commerce Web Application</h3>
+          <p>A full-stack Django shop for product discovery, cart management and order placement.</p>
+          <div class="chips"><span>Python</span><span>Django</span><span>PostgreSQL</span><span>Bootstrap</span></div>
+          <ul><li>Authentication and role-based access</li><li>Products, categories, image uploads and checkout</li><li>Session-based cart and automatic totals</li></ul>
+          <a href="https://github.com/ayishahannak/React-Practice" class="link-arrow">Explore Repository <span>&#8599;</span></a>
+        </article>
+
+<div class="feat-copy">
+  <p class="mono">REACT / FOOD DELIVERY <span>03 / 05</span></p>
+  <h3>Food Delivery Website</h3>
+  <p>A responsive food delivery platform that allows users to browse food items, manage carts and place orders online.</p>
+  <div class="chips">
+    <span>React.js</span>
+    <span>JavaScript</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Bootstrap</span>
+  </div>
+  <ul>
+    <li>Interactive food menu and product browsing</li>
+    <li>Shopping cart and order management</li>
+    <li>User-friendly interface with responsive design</li>
+  </ul>
+  <a href="https://github.com/ayishahannak/React-Food-Delivery" class="link-arrow">Explore repository <span>&#8599;</span></a>
+</div>
+
+
+<div class="feat-copy">
+  <p class="mono">REACT / JS<span>04 / 04</span></p>
+  <h3>Carnival Website</h3>
+  <p>A vibrant and interactive carnival website designed to showcase carnival events, attractions and activities through an engaging user interface.</p>
+
+  <div class="chips">
+    <span>React.js</span>
+    <span>JavaScript</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Bootstrap</span>
+  </div>
+
+  <ul>
+    <li>Responsive and user-friendly carnival website design</li>
+    <li>Attractive presentation of carnival events and activities</li>
+    <li>Interactive sections with smooth navigation</li>
+    <li>Engaging layout with visually appealing elements</li>
+  </ul>
+
+  <a href="https://github.com/ayishahannak/React-Carnival" class="link-arrow">Explore repository <span>&#8599;</span></a>
+</div>
+
+
+<div class="feat-copy">
+  <p class="mono">REACT / JS<span>05 / 05</span></p>
+  <h3>Library Management Website</h3>
+  <p>A library management website designed to make browsing and managing books easier through a simple and user-friendly interface.</p>
+
+  <div class="chips">
+    <span>React.js</span>
+    <span>JavaScript</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Bootstrap</span>
+  </div>
+
+  <ul>
+    <li>Browse and explore available books</li>
+    <li>Search and filter books easily</li>
+    <li>Organized book details and categories</li>
+    <li>Responsive design for different screen sizes</li>
+  </ul>
+
+  <a href="https://github.com/ayishahannak/React-Library" class="link-arrow">Explore repository <span>&#8599;</span></a>
+</div>
+
+
+
+
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section" id="journey">
+      <p class="eyebrow"><b>04</b> LEARNING JOURNEY</p>
+      <h2 class="reveal">Learning with<br><em>intention.</em></h2>
+      <p class="intro reveal">A foundation in development, and a habit of staying curious.</p>
+      <ol class="timeline">
+        <li class="reveal"><span class="year">2026</span><div><h3>Diploma in Python Web Development with AI</h3><p>Futura Labs &middot; Kozhikode, Kerala</p></div></li>
+        <li class="reveal"><span class="year">2021-2024</span><div><h3>Bachelor of &mdash; Commerce</h3><p>Calicut University &middot; Kerala, India</p></div></li>
+      </ol>
+      <div class="note reveal"><span>&#9638;</span>40+ problems solved on LeetCode</div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <p class="eyebrow"><b>05</b> HAVE A ROLE OR IDEA IN MIND?</p>
+      <h2 class="reveal">Let's build<br><em>something<br>useful.</em></h2>
+      <p class="intro reveal">I'm currently looking for Python, Django and Backend Developer opportunities.</p>
+      <a href="mailto:ayishahanna6363@gmail.com" class="btn btn-primary">Get in touch <span>&#8599;</span></a>
+      <ul class="contact-list">
+        <li><span>EMAIL</span><a href="mailto:ayishahanna6363@gmail.com">ayishahanna6363@gmail.com &#8599;</a></li>
+        <li><span>GITHUB</span><a href="https://github.com/ayishahannak" target="_blank" rel="noopener">github.com/ayishahannak &#8599;</a></li>
+        <li><span>LINKEDIN</span><a href="https://www.linkedin.com/in/ayisha-hanna-292b6b356/" target="_blank" rel="noopener">Connect with me &#8599;</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="brand"><span class="brand-mark">A</span><span class="brand-name">AYISHA HANNA</span></a>
+    <span class="copy">&copy; <span id="year"></span></span>
+  </footer>
+
+  <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
